@@ -1,0 +1,13 @@
+ <com.kyleduo.switchbutton.SwitchButton
+                android:id="@+id/switch_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                app:kswTextOff="false"
+                app:kswTextOn="true"
+                android:textColor="@drawable/custom_text_state_color"
+                app:kswThumbDrawable="@drawable/thumb_drawable"
+                app:kswThumbColor="#555771"
+                app:kswTintColor="#00ddB6"/>
+
+compile 'com.kyleduo.switchbutton:library:2.0.0'
